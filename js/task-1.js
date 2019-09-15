@@ -11,8 +11,11 @@
 
 'use strict';
 
-const nameOne = "Генератор защитного поля"
+const name = "Генератор защитного поля"
 let price = 1000;
+
+let message = `"Выбран <<${name}>>, цена за штуку ${price} кредитов"`
+console.log(message);
 price = 2000;
-const messageone = `"Выбран <<${nameOne}>>, цена за штуку ${price} кредитов"`
-console.log(messageone);
+message = `"Выбран <<${name}>>, цена за штуку ${price} кредитов"`
+console.log(message);

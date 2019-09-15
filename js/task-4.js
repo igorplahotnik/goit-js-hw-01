@@ -17,7 +17,7 @@ let numberOfDroids;
 let totalPrice;
 
 numberOfDroids = Number(prompt('Введите количество дроидов которые Вы хотите купить'))
-if (numberOfDroids === 0 || Number.isNaN(numberOfDroids) === true) {
+if (numberOfDroids === 0 || Number.isNaN(numberOfDroids)) {
     console.log('Отменено пользователем!');
 } else if ((totalPrice = numberOfDroids * pricePerDroid) > credits) {
     console.log('Недостаточно средств на счету!')
